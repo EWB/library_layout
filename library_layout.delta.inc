@@ -21,14 +21,15 @@ function library_layout_delta_default_templates() {
   $delta->parent = '';
   $delta->settings = array(
     'theme_slu_omega_settings' => array(
+      'logo_upload' => '',
       'alpha_region_sidebar_first_zone' => NULL,
       'alpha_region_sidebar_first_equal_height_element' => FALSE,
       'alpha_region_content_zone' => NULL,
       'alpha_region_content_equal_height_element' => FALSE,
       'alpha_zone_content_section' => NULL,
       'alpha_zone_content_primary' => NULL,
-      'alpha_region_branding-second_weight' => '2',
-      'alpha_region_branding-second_equal_height_element' => 0,
+      'alpha_region_user_first_columns' => '12',
+      'alpha_region_user_second_zone' => NULL,
       'alpha_zone_content_grid_columns' => '16',
       'alpha_region_content_grid_second_zone' => 'content_grid',
       'alpha_region_content_grid_second_columns' => '3',
