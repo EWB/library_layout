@@ -157,41 +157,53 @@ function library_layout_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'quicktabs-site_search' => array(
+          'module' => 'quicktabs',
+          'delta' => 'site_search',
+          'region' => 'branding',
+          'weight' => '-70',
+        ),
+        'boxes-logo_slu' => array(
+          'module' => 'boxes',
+          'delta' => 'logo_slu',
+          'region' => 'branding',
+          'weight' => '-69',
+        ),
+        'boxes-logo_slu_mobile' => array(
+          'module' => 'boxes',
+          'delta' => 'logo_slu_mobile',
+          'region' => 'branding',
+          'weight' => '-10',
+        ),
         'superfish-4' => array(
           'module' => 'superfish',
           'delta' => '4',
           'region' => 'branding-second',
-          'weight' => '-10',
-        ),
-        'search-form' => array(
-          'module' => 'search',
-          'delta' => 'form',
-          'region' => 'branding-second',
-          'weight' => '-9',
+          'weight' => '-68',
         ),
         'delta_blocks-site-name' => array(
           'module' => 'delta_blocks',
           'delta' => 'site-name',
           'region' => 'menu',
-          'weight' => '-66',
+          'weight' => '-68',
         ),
         'superfish-1' => array(
           'module' => 'superfish',
           'delta' => '1',
           'region' => 'menu',
-          'weight' => '-64',
+          'weight' => '-67',
         ),
-        'superfish-2' => array(
-          'module' => 'superfish',
-          'delta' => '2',
-          'region' => 'menu',
-          'weight' => '-63',
-        ),
-        'superfish-3' => array(
-          'module' => 'superfish',
-          'delta' => '3',
+        'search-form' => array(
+          'module' => 'search',
+          'delta' => 'form',
           'region' => 'menu_second',
-          'weight' => '-9',
+          'weight' => '-10',
+        ),
+        'crumbs-breadcrumb' => array(
+          'module' => 'crumbs',
+          'delta' => 'breadcrumb',
+          'region' => 'header_second',
+          'weight' => '-10',
         ),
         'sharethis-sharethis_block' => array(
           'module' => 'sharethis',
@@ -205,16 +217,28 @@ function library_layout_context_default_contexts() {
           'region' => 'footer_first',
           'weight' => '-10',
         ),
-        'menu_block-1' => array(
+        'menu_block-4' => array(
           'module' => 'menu_block',
-          'delta' => '1',
+          'delta' => '4',
           'region' => 'footer_third',
+          'weight' => '-9',
+        ),
+        'menu_block-3' => array(
+          'module' => 'menu_block',
+          'delta' => '3',
+          'region' => 'footer_fourth',
           'weight' => '-10',
         ),
         'menu_block-2' => array(
           'module' => 'menu_block',
           'delta' => '2',
-          'region' => 'footer_fourth',
+          'region' => 'footer_fifth',
+          'weight' => '-10',
+        ),
+        'menu_block-1' => array(
+          'module' => 'menu_block',
+          'delta' => '1',
+          'region' => 'footer_sixth',
           'weight' => '-10',
         ),
       ),
