@@ -78,6 +78,7 @@ function library_layout_strongarm() {
       'global.css' => 'global.css',
     ),
     'alpha_exclude' => array(
+      'sites/all/modules/contrib/collapsiblock/collapsiblock.css' => 0,
       'sites/all/modules/contrib/colorbox_node/colorbox_node.css' => 0,
       'modules/comment/comment.css' => 0,
       'sites/all/modules/contrib/date/date_api/date.css' => 0,
@@ -85,6 +86,7 @@ function library_layout_strongarm() {
       'sites/all/modules/contrib/date/date_repeat_field/date_repeat_field.css' => 0,
       'modules/field/theme/field.css' => 0,
       'sites/all/modules/contrib/flexslider/assets/css/flexslider_img.css' => 0,
+      'sites/all/modules/contrib/ldap/ldap_user/ldap_user.css' => 0,
       'modules/node/node.css' => 0,
       'modules/search/search.css' => 0,
       'modules/user/user.css' => 0,
@@ -547,6 +549,9 @@ function library_layout_strongarm() {
     'alpha_region_footer_second_css' => '',
     'alpha_region_footer_second_equal_height_element' => 0,
     'alpha_region_footer_second_equal_height_container' => 0,
+    'collapsiblock_block' => 'section.block',
+    'collapsiblock_title' => 'h2.block-title',
+    'collapsiblock_content' => 'div.content',
     'nice_menus_custom_css' => '',
     'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );

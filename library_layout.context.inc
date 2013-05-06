@@ -157,12 +157,6 @@ function library_layout_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'quicktabs-site_search' => array(
-          'module' => 'quicktabs',
-          'delta' => 'site_search',
-          'region' => 'branding',
-          'weight' => '-70',
-        ),
         'boxes-logo_slu' => array(
           'module' => 'boxes',
           'delta' => 'logo_slu',
@@ -205,15 +199,15 @@ function library_layout_context_default_contexts() {
           'region' => 'header_second',
           'weight' => '-10',
         ),
-        'sharethis-sharethis_block' => array(
-          'module' => 'sharethis',
-          'delta' => 'sharethis_block',
-          'region' => 'footer_first',
-          'weight' => '-10',
-        ),
         'boxes-footer' => array(
           'module' => 'boxes',
           'delta' => 'footer',
+          'region' => 'footer_first',
+          'weight' => '-10',
+        ),
+        'sharethis-sharethis_block' => array(
+          'module' => 'sharethis',
+          'delta' => 'sharethis_block',
           'region' => 'footer_first',
           'weight' => '-10',
         ),

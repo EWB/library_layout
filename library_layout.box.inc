@@ -19,8 +19,8 @@ function library_layout_default_box() {
   $box->description = 'SLU Logo';
   $box->options = array(
     'body' => array(
-      'value' => '<p><img alt="St. Lawrence University" src="http://staging.stlawu.edu/library2/sites/default/files/logo.png" align="left" height="100" width="280"></p>',
-      'format' => 'full_html',
+      'value' => '<p><a href="http://www.stlawu.edu"><img alt="St. Lawrence University" src="./sites/default/files/logo.png" align="left" height="100" width="280"></a></p>',
+      'format' => 'richtext_editor',
     ),
     'additional_classes' => '',
   );
